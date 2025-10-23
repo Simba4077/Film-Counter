@@ -1,3 +1,13 @@
 # __Film Counter__
-Arduino hook-up with C++ logic to control keypad and LCD-screen display.
+A simple Arduino-based film counter that tracks frame counts and converts them into feet for 35 mm or 16 mm film.
 Link to simulation -> https://wokwi.com/projects/409847020437684225
+
+
+The sketch calculates equivalent feet for:  
+35 mm film: 4 frames per foot  
+16 mm film: 8 frames per foot  
+
+The LCD display shows:  
+Film type (35 mm / 16 mm)  
+Current frame count  
+Total feet traveled  
