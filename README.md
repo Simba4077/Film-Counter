@@ -10,4 +10,4 @@ Film type (35 mm / 16 mm)
 Current frame count  
 Total feet traveled  
 
-View simulation on Wowki-> https://wokwi.com/projects/409847020437684225
+View simulation on Wokwi-> https://wokwi.com/projects/409847020437684225
