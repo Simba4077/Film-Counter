@@ -20,16 +20,6 @@ void updateIndexCount()
   if (dir == 0)
   {
     frameCount++;
-    
-
-  
-  
-  
-  
-  
-  
-  
-  
   }
   else
   {
@@ -92,29 +82,14 @@ if (digitalRead(6) == (0))
     {
       lcd.setCursor(8, 0);
       lcd.print("35MM");
-  
-  
-    
     
     }
     else
     {
       lcd.setCursor(8, 0);
-     lcd.print("16MM");
-  
-     
+     lcd.print("16MM");    
       
     } 
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -129,26 +104,13 @@ if (digitalRead(6) == (0))
     lcd.setCursor(0, 3);
     lcd.print("FEET");
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     if (digitalRead(6) == (0))
     {
       lcd.setCursor(8, 0);
       lcd.print("35MM");
     
-    
-    
-    
+  
     if (feet35 > -1 && feet35 <= 9)
     {
       lcd.setCursor(19, 3);
@@ -203,27 +165,14 @@ if (digitalRead(6) == (0))
       lcd.print(feet35);
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
     }
     else
     {
       lcd.setCursor(8, 0);
       lcd.print("16MM");
     
-    
-    
-    
+
     if (feet16 > -1 && feet16 <= 9)
     {
       lcd.setCursor(19, 3);
@@ -277,16 +226,6 @@ if (digitalRead(6) == (0))
       lcd.setCursor(11, 3);
       lcd.print(feet16);
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     }
 
