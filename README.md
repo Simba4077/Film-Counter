@@ -11,3 +11,6 @@ Current frame count
 Total feet traveled  
 
 View simulation on Wokwi-> https://wokwi.com/projects/409847020437684225
+
+<img width="738" height="714" alt="image" src="https://github.com/user-attachments/assets/804fccb7-f12a-4dad-9287-b9d6542d74ff" />
+
